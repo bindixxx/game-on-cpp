@@ -282,7 +282,7 @@ int main() {
     Thief thief;
 
     int choice;
-    cout << "Выберите персонажа: 1 - Рыцарь, 2 - Маг, 3 - Вор: ";
+    cout << "Select character: 1 - Knight, 2 - Mage, 3 - Thief:";
     cin >> choice;
 
     if (choice == 1) {
@@ -295,7 +295,7 @@ int main() {
         thief.adventure();
     }
     else {
-        cout << "Неправильный выбор!" << endl;
+        cout << "Wrong choice!" << endl;
     }
 
     return 0;
